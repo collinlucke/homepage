@@ -103,6 +103,7 @@ import swagdashboard from "./swagdashboard/widget";
 import tailscale from "./tailscale/widget";
 import tandoor from "./tandoor/widget";
 import tautulli from "./tautulli/widget";
+import technitium from "./technitium/widget";
 import tdarr from "./tdarr/widget";
 import traefik from "./traefik/widget";
 import transmission from "./transmission/widget";
@@ -118,6 +119,7 @@ import whatsupdocker from "./whatsupdocker/widget";
 import xteve from "./xteve/widget";
 import urbackup from "./urbackup/widget";
 import romm from "./romm/widget";
+import zabbix from "./zabbix/widget";
 
 const widgets = {
   adguard,
@@ -228,6 +230,7 @@ const widgets = {
   tailscale,
   tandoor,
   tautulli,
+  technitium,
   tdarr,
   traefik,
   transmission,
@@ -243,6 +246,7 @@ const widgets = {
   wgeasy,
   whatsupdocker,
   xteve,
+  zabbix,
 };
 
 export default widgets;

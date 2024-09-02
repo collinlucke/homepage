@@ -459,6 +459,8 @@ export function cleanServiceGroups(groups) {
 
           // sonarr, radarr
           enableQueue,
+          collapsible,
+          compactQueue,
 
           // stocks
           watchlist,
@@ -546,6 +548,8 @@ export function cleanServiceGroups(groups) {
         }
         if (["sonarr", "radarr"].includes(type)) {
           if (enableQueue !== undefined) cleanedService.widget.enableQueue = JSON.parse(enableQueue);
+          if (collapsible !== undefined) cleanedService.widget.collapsible = JSON.parse(collapsible);
+          if (compactQueue !== undefined) cleanedService.widget.compactQueue = JSON.parse(compactQueue);
         }
         if (type === "truenas") {
           if (enablePools !== undefined) cleanedService.widget.enablePools = JSON.parse(enablePools);
